@@ -1,0 +1,20 @@
+{
+  "name": "stellar-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "erivaldocazinga22",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "npm version patch && npm publish"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "stellar-project": "file:"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
