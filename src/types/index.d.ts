@@ -1,8 +1,10 @@
-declare module "stellar-project" {
-    export interface LoggerMiddlewareOptions {
-      logLevel: 'info' | 'warn' | 'error';
-    }
-  
-    export function createLoggerMiddleware(options: LoggerMiddlewareOptions): (req: Request, res: Response, next: NextFunction) => void;
-  }
-  
+import { Request as ExpressRequest, Response as ExpressResponse, NextFunction as ExpressNextFunction } from "express";
+export type LoggerMiddlewareOptions = {
+    logLevel: 'info' | 'warn' | 'error';
+};
+
+export default class StellarProject {
+    constructor(options: LoggerMiddlewareOptions);
+
+    public getMiddleware(): (req: ExpressRequest, res: ExpressResponse, next: ExpressNextFunction) => void;
+}

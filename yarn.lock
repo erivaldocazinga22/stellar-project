@@ -686,7 +686,7 @@ statuses@2.0.1:
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
 
 "stellar-project@file:":
-  version "1.0.2"
+  version "1.0.4"
   resolved "file:"
   dependencies:
     express "^4.21.0"

@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "main": "index.js",
   "author": "erivaldocazinga22",
+  "types": "src/types/index.d.ts",
   "license": "MIT",
   "scripts": {
     "deploy": "npm version patch && npm publish"
