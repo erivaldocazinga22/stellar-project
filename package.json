@@ -1,21 +1,22 @@
 {
   "name": "stellar-project",
   "version": "1.0.5",
-  "main": "index.js",
-  "author": "erivaldocazinga22",
-  "types": "src/types/index.d.ts",
+  "main": "dist/modules/logger.js",
+  "repository": "https://github.com/erivaldocazinga22/stellar-project.git",
+  "author": "erivaldocazinga22 <cazarthdesogner@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "test": "tsc && node dist/tests/index.js",
     "deploy": "npm version patch && npm publish"
-  },
-  "dependencies": {
-    "express": "^4.21.0",
-    "stellar-project": "file:"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.7.4",
     "tsx": "^4.19.1",
     "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "stellar-project": "file:"
   }
 }

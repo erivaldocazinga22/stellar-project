@@ -1,2 +1,0 @@
-# stellar-project-lib
-Stellar Project é uma biblioteca que fornece um middleware personalizável para registrar requisições HTTP em aplicações Express. Inclui uma interface gráfica para monitoramento de logs e armazena as informações de forma estruturada, facilitando a análise e otimização da gestão de logs nas aplicações.
